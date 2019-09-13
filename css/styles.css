@@ -1,0 +1,104 @@
+body{
+    /* background-image: url("../images/pattern.png"); */
+    background: url("../images/tri.png") no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: rgba(28, 116, 86, 0.9); */
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed; 
+    top: -55px; 
+    left: 0px;
+    width: 100%; 
+    transition: top 0.3s; 
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+#navbar .cont {
+    float: left;
+    display: block;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 15pt;
+    color: antiquewhite;
+    max-width: 600px;
+    text-align: center;
+    padding: 50px 50px;
+    top: 100px;
+    /* background-color: rgba(57, 104, 88, 0.842); */
+/* font-family: 'Assistant', sans-serif; */
+/* font-family: 'Satisfy', cursive; */
+    font-family: 'Caveat', cursive;
+/* font-family: 'BenchNine', sans-serif; */
+/* font-family: 'Sanchez', serif; */
+/* font-family: 'Handlee', cursive;m */
+/* font-family: 'Neucha', cursive;m */
+/* font-family: 'Cabin Condensed', sans-serif; */
+/* font-family: 'Merienda', cursive; */
+/* font-family: 'Marck Script', cursive; */
+/* font-family: 'Chilanka', cursive; */
+/* font-family: 'Livvic', sans-serif; */
+}
+
+.main h1 {
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-bottom: 25px;
+    color: rgb(211, 195, 174);
+    font-size: 32pt;
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Tangerine', cursive; */
+    font-family: 'Homemade Apple', cursive;
+    /* background-color: rgba(19, 109, 64, 0.836); */
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    /* height: 400px;
+    width: 400px;
+    line-height: 400px; */
+    /* border-radius: 50%; */
+
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+
+#menu a {
+    display: block;
+    padding: 15px 15px;
+    /* width: 120px;  */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18pt;
+    color: rgb(211, 195, 174);
+    /* background-color: rgba(221, 220, 220, 0.9); */
