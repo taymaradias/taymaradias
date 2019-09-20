@@ -1,4 +1,4 @@
-body{
+html{
     /* background-image: url("../images/pattern.png"); */
     background: url("../images/tri.png") no-repeat center center fixed;
     background-repeat: no-repeat;
@@ -77,10 +77,12 @@ body{
 
 }
 
-#menu {
+#menu, #contact {
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    
+    
 
 }
 
@@ -93,3 +95,21 @@ body{
     font-size: 18pt;
     color: rgb(211, 195, 174);
     /* background-color: rgba(221, 220, 220, 0.9); */
+}
+
+#contact div{
+    font-family: 'Caveat', cursive;
+    color: antiquewhite;
+    background-color: rgba(139, 73, 104, 0.801);
+    margin: auto;
+    padding: 1em;
+}
+
+#contact {
+    align-content: space-evenly;
+    position: fixed; 
+    top: 20em; 
+    width: 100%; 
+
+
+}
