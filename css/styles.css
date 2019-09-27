@@ -5,6 +5,10 @@ html{
     color: antiquewhite;
 }
 
+body {
+    height: 100%;
+}
+
 .main {
     margin: 90px auto 0;
     padding: 50px 50px; 
